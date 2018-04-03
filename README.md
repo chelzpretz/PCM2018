@@ -12,11 +12,12 @@ Week Two - Independent contrasts and its extensions: addressiong phyologenetic a
 Week Three - Generalized linear models (GLS)  
 Week Four - Fitting and evaluating alternative models  
 Week Five - Stretching the tree: evolutionary rates and models of continours traint evolution  
-Week Six - Ornstein-Uhlenback  
-Week Seven - Multivariate vs univariate; and accounting for intraspecific variation and error  
-Week Eight - Phylogenetic diversity and phylogenetic methods in community ecology part I.  
-Week Nine - Phylogenetic diversity and phylogenetic methods in community ecology part II.  
-Week Ten - Effects of traits on lineage diversification.  
+Week Six - Effects of traits on lineage diversification  
+Week Seven - Ornstein-Uhlenback  
+Week Eight - Multivariate vs univariate; and accounting for intraspecific variation and error  
+Week Nine - Phylogenetic diversity and phylogenetic methods in community ecology part I.  
+Week Ten - Phylogenetic diversity and phylogenetic methods in community ecology part II.  
+
 
 
 ### **Project** This folder will contain inspired projects for the material that will be covered in the course. This folder will be updated as the semester continues. 

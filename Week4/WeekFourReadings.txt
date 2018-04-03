@@ -1,0 +1,76 @@
+## Week Four Readings: Fitting and evaluating alternative models (including multi-model inference)
+
+
+* Boettiger, C., G. Coop, and P. Ralph. 2012. Is your phylogeny informative? Measuring the power of comparative methods. Evolution doi: 10.1111/j.1558-5646.2011.01574.x
+
+This paper covers the importance of picking important PCM and how to use simulated data to get power needed to make inference from a phylogeny. Here the pcm "Phylogenetic Monte Carlo" r-package
+was introduced. 
+
+Some issues with phylogenetic methods are: 
+1. Does the model reflect the biological reality of evolution and a meaningful hypotheses? 
+2. Do we have the adequate data to fit these models and the ability to choose between them?
+
+Without results that include uncertainty, model fits, or power it is hard to interpret the results accurately. 
+
+Solutions:
+Use parametric bootstraps. There are a handful of other methods that have been used -- phylogenetic ANOVA, likelihood ratios under BM
+
+Methods that test for power:
+1. Qualification of the model choice -- this is using BM likelihood ratios
+2. Information criteria often doesn't choose the right model
+3. Applied to non-nested models
+4. The simplest model is the best -- if BM and OU are the same - choose BM
+
+
+*Caution must be used when choosing a lambda.* Zero might arise on smaller trees and larger trees can allow for greater accuracy. 
+
+
+
+* Freckleton, R. P. 2009. The seven deadly sins of comparative analysis. J Evol Biol 22:1367-1375.
+
+1. Putting too much faith into models with low R^2
+	High R^2 and effect size means a tight fit with a positive slope, you can have a high R^2 score but small decrease in slope 
+2. Reporting both PI and PC analysis
+	PI -- phylogenetic independent 
+	PC -- Phylogenetic contrast 
+	Think about phylogenetic signal
+3. Not testing distributional assumptions 
+	Checking your data -- Is it normal?
+4. Data dredging 
+	Over using models and end up getting false positive 
+	You can weight all the models AIC and average all models (mix models)
+	This is a debate if we think 
+5. Treating residuals as data
+	
+6. Ignoring alternative models 
+7. Ignoring quality control of data 
+
+
+
+* Pennell MW, FitzJohn RG, Cornwell WK, Harmon LJ. 2015. Model Adequacy and the Macroevolution of Angiosperm Functional Traits. The American Naturalist 186: E33–E50.
+
+Testing for model accuracy. This paper focuses on finding the fit of a model to a universe of possible models
+
+Steps:
+1. Fit model of trait evolution
+2. Construct unit tree from model params
+	Unit trees just move time 
+3. Calculate test statistics on contrasts
+4. Simulate many BM datasets
+5. Calculate test statistics on contrasts
+6. Compare simulations to observations test statistics
+
+
+Notes:
+Information theory 
+
+prior with baseysain
+if trying to fit is likelihood
+
+R^2 is the explanation of the variance (effect size)
+
+Ppl will ask for interspecies variation 
+
+
+
+

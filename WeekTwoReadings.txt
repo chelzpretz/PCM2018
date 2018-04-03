@@ -44,5 +44,10 @@ Westoby respond that phylogenetic correction is important but not in ever situat
 Harvey fallowed up PC is always important... that evolution is not in a ecology framework but that other way around. 
 
 
+Notes:
 
+Brownian motion could be because of genetic drift or highly variable selection regimes. (maybe look you BM with selection regimes later -- only in simulations) 
+Phylogenetic inertia = phylogenetic signal 
+	Think of inertia as a non-MC process. Thinking about throwing a baseball it not all about where its at now, but where it came from.
+Review: long-branch attraction -- this can happens most with comparison data with data that is highly variable
 
