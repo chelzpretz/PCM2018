@@ -41,7 +41,6 @@ Methods that test for power:
 	You can weight all the models AIC and average all models (mix models)
 	This is a debate if we think 
 5. Treating residuals as data
-	
 6. Ignoring alternative models 
 7. Ignoring quality control of data 
 

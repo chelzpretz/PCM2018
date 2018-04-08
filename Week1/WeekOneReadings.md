@@ -1,11 +1,13 @@
 ** Week One: Trees, traits, and covariance
 
-**** Pennell MW, Harmon LJ. 2013. An integrative view of phylogenetic comparative methods: connections to population genetics, community ecology, and paleobiology. Annals of the New York Academy of Sciences 1289: 90–105.
+* Pennell MW, Harmon LJ. 2013. An integrative view of phylogenetic comparative methods: connections to population genetics, community ecology, and paleobiology. Annals of the New York Academy of Sciences 1289: 90–105.
 
 Overview of the paper:  
-This paper is a review of the different fields (population genetics, community ecology, and paleobiology) and how phylogentics are used it either one. Is starts with reviewing the differnce between Phylogenetic Independent Contrast (PIC) and Phylogenetic Generalize Least Squares (PGLS).
-These two different methods are on the different sides of the spectrum. PICs is a data transformation that compares the difference between traits, models drift, and is done by taking old data and creating new data working with continuous traits.
-PGLS is more flexible and can incorporated different models of evolution. The rest of the paper directly covers methods for phylogenetic comparisons for each field. 
+This paper is a review of the different fields (population genetics, community ecology, and paleobiology) and how phylogentics are used in those fields. 
+It starts with reviewing the difference between Phylogenetic Independent Contrast (PIC) and Phylogenetic Generalize Least Squares (PGLS).
+These two different methods are on the different sides of the spectrum. PICs is a data transformation that compares the difference between traits, models drift, and 
+is done by taking old data and creating new data working with continuous traits. PGLS is more flexible and can incorporated different models of evolution. The rest of the paper 
+directly covers methods for phylogenetic comparisons for each field. 
 
 
 
